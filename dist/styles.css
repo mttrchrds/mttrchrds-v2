@@ -1,15 +1,16 @@
   body {
+    width: 100%;
     background: hsl(154 50% 5%);
     color: hsl(154 84% 70%);
     text-shadow: 0 0 4px hsl(154 84% 70%);
     font-family: monospace;
-    font-size: 32px;
-    margin: 25px 50px;
+    font-size: 16px;
+    margin: 15px 20px;
   }
 
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 480px) {
     body {
-      font-size: 16px;
+      margin: 25px 50px;
     }
   }
 
@@ -45,6 +46,13 @@
   pre {
     display: table;
     margin: 0 0 20px -3px;
+    font-size: 12px;
+  }
+
+  @media screen and (min-width: 480px) {
+    pre {
+      font-size: 16px;
+    }
   }
 
   p {
